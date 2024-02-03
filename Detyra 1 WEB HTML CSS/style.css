@@ -1,0 +1,39 @@
+body{
+    background-image: url(banner.jpg);
+}
+.container-fluid{
+    max-width: 1250px;
+}
+.navbar-brand{
+    img{
+        height: 60px;
+    }
+}
+.banner-style-six h2 {
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.banner-style-six h2 strong {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--main-bg-color);
+}
+:root {
+    --main-bg-color: #ff8a43;
+}
+.banner-style-six-area {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.information{
+    font-size: 22px;
+    line-height: 1.7;
+}
+.banner-style-six form {
+    border: 2px solid;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 35px;
+}
