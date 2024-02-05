@@ -1,5 +1,11 @@
-body{
+.banner-style-six-area{
     background-image: url(banner.jpg);
+    overflow: auto;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .container-fluid{
     max-width: 1250px;
@@ -25,7 +31,7 @@ body{
 }
 .banner-style-six-area {
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 .information{
     font-size: 22px;
@@ -36,4 +42,25 @@ body{
     border-radius: 10px;
     position: relative;
     margin-top: 35px;
+}
+.form-control{
+    font-size: 1.2rem;
+}
+.banner-style-six .thumb img:first-child {
+    z-index: 1;
+    position: relative;
+}
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.mb-3{
+    button{
+        position: relative;
+        top: 22px;
+        background: var(--dark);
+    }
 }
